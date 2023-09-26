@@ -19,12 +19,16 @@ function HomeContact() {
             size={30}
           />
           <div className="custom-contact">EMAIL</div>
-          <p>fatma.soualmia@enetcom-u.sfax.tn</p>
+          <p>
+            fatma.soualmia@
+            <br />
+            enetcom-u.sfax.tn
+          </p>
         </div>
         <div className=" col-md-3 col-6 p-4">
           <TfiWorld className="custom-contact" color="white" size={30} />
           <div className="custom-contact">WEB</div>
-          <p>www.johndoe.com</p>
+          <p>johndoe.com</p>
         </div>
         <div className=" col-md-3 col-6 p-4">
           <TfiHeadphoneAlt className="custom-contact" color="white" size={30} />
